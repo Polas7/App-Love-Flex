@@ -32,6 +32,10 @@ body {
 	width: 70px;
 	height: 70px;
 }
+a:hover {
+	background-color: #292d36;
+  	color: white;
+}
 
 /*home*/
 #home{
@@ -80,6 +84,31 @@ body {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+
+
+/*work*/
+#work{
+	display: flex;
+	background-color: white;
+	text-align: center;
+	color: black;
+	margin-bottom: 40px;
+	padding: 70px;
+}
+#work h2{
+	font-size: 30px;
+}
+#work.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+}
+#img{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
 footer{
 	background-color: #292d36;
     text-align: center;
